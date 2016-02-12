@@ -22,17 +22,17 @@ return this__18856__auto__;
 
 om_tutorial.core.HelloWorld.prototype = goog.object.clone(React.Component.prototype);
 
-var x20036_20044 = om_tutorial.core.HelloWorld.prototype;
-x20036_20044.componentWillUpdate = ((function (x20036_20044){
+var x18885_18893 = om_tutorial.core.HelloWorld.prototype;
+x18885_18893.componentWillUpdate = ((function (x18885_18893){
 return (function (next_props__18797__auto__,next_state__18798__auto__){
 var this__18796__auto__ = this;
 om.next.merge_pending_props_BANG_.call(null,this__18796__auto__);
 
 return om.next.merge_pending_state_BANG_.call(null,this__18796__auto__);
-});})(x20036_20044))
+});})(x18885_18893))
 ;
 
-x20036_20044.shouldComponentUpdate = ((function (x20036_20044){
+x18885_18893.shouldComponentUpdate = ((function (x18885_18893){
 return (function (next_props__18797__auto__,next_state__18798__auto__){
 var this__18796__auto__ = this;
 var or__16771__auto__ = cljs.core.not_EQ_.call(null,om.next.props.call(null,this__18796__auto__),goog.object.get(next_props__18797__auto__,"omcljs$value"));
@@ -46,10 +46,10 @@ return cljs.core.not_EQ_.call(null,goog.object.get(this__18796__auto__.state,"om
 return and__16759__auto__;
 }
 }
-});})(x20036_20044))
+});})(x18885_18893))
 ;
 
-x20036_20044.componentWillUnmount = ((function (x20036_20044){
+x18885_18893.componentWillUnmount = ((function (x18885_18893){
 return (function (){
 var this__18796__auto__ = this;
 var r__18802__auto__ = om.next.get_reconciler.call(null,this__18796__auto__);
@@ -66,24 +66,24 @@ return null;
 } else {
 return om.next.protocols.drop_component_BANG_.call(null,indexer__18801__auto__,this__18796__auto__);
 }
-});})(x20036_20044))
+});})(x18885_18893))
 ;
 
-x20036_20044.componentDidUpdate = ((function (x20036_20044){
+x18885_18893.componentDidUpdate = ((function (x18885_18893){
 return (function (prev_props__18799__auto__,prev_state__18800__auto__){
 var this__18796__auto__ = this;
 return om.next.clear_prev_props_BANG_.call(null,this__18796__auto__);
-});})(x20036_20044))
+});})(x18885_18893))
 ;
 
-x20036_20044.isMounted = ((function (x20036_20044){
+x18885_18893.isMounted = ((function (x18885_18893){
 return (function (){
 var this__18796__auto__ = this;
 return cljs.core.boolean$.call(null,goog.object.getValueByKeys(this__18796__auto__,"_reactInternalInstance","_renderedComponent"));
-});})(x20036_20044))
+});})(x18885_18893))
 ;
 
-x20036_20044.componentWillMount = ((function (x20036_20044){
+x18885_18893.componentWillMount = ((function (x18885_18893){
 return (function (){
 var this__18796__auto__ = this;
 var indexer__18801__auto__ = cljs.core.get_in.call(null,om.next.get_reconciler.call(null,this__18796__auto__),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"config","config",994861415),new cljs.core.Keyword(null,"indexer","indexer",-1774914315)], null));
@@ -92,17 +92,17 @@ return null;
 } else {
 return om.next.protocols.index_component_BANG_.call(null,indexer__18801__auto__,this__18796__auto__);
 }
-});})(x20036_20044))
+});})(x18885_18893))
 ;
 
-x20036_20044.render = ((function (x20036_20044){
+x18885_18893.render = ((function (x18885_18893){
 return (function (){
 var this$ = this;
-var _STAR_reconciler_STAR_20037 = om.next._STAR_reconciler_STAR_;
-var _STAR_depth_STAR_20038 = om.next._STAR_depth_STAR_;
-var _STAR_shared_STAR_20039 = om.next._STAR_shared_STAR_;
-var _STAR_instrument_STAR_20040 = om.next._STAR_instrument_STAR_;
-var _STAR_parent_STAR_20041 = om.next._STAR_parent_STAR_;
+var _STAR_reconciler_STAR_18886 = om.next._STAR_reconciler_STAR_;
+var _STAR_depth_STAR_18887 = om.next._STAR_depth_STAR_;
+var _STAR_shared_STAR_18888 = om.next._STAR_shared_STAR_;
+var _STAR_instrument_STAR_18889 = om.next._STAR_instrument_STAR_;
+var _STAR_parent_STAR_18890 = om.next._STAR_parent_STAR_;
 om.next._STAR_reconciler_STAR_ = om.next.get_reconciler.call(null,this$);
 
 om.next._STAR_depth_STAR_ = (om.next.depth.call(null,this$) + (1));
@@ -113,17 +113,17 @@ om.next._STAR_instrument_STAR_ = om.next.instrument.call(null,this$);
 
 om.next._STAR_parent_STAR_ = this$;
 
-try{return React.DOM.div(null,om.util.force_children.call(null,"Hello, world!"));
-}finally {om.next._STAR_parent_STAR_ = _STAR_parent_STAR_20041;
+try{return React.DOM.div(null,om.util.force_children.call(null,cljs.core.get.call(null,om.next.props.call(null,this$),new cljs.core.Keyword(null,"title","title",636505583))));
+}finally {om.next._STAR_parent_STAR_ = _STAR_parent_STAR_18890;
 
-om.next._STAR_instrument_STAR_ = _STAR_instrument_STAR_20040;
+om.next._STAR_instrument_STAR_ = _STAR_instrument_STAR_18889;
 
-om.next._STAR_shared_STAR_ = _STAR_shared_STAR_20039;
+om.next._STAR_shared_STAR_ = _STAR_shared_STAR_18888;
 
-om.next._STAR_depth_STAR_ = _STAR_depth_STAR_20038;
+om.next._STAR_depth_STAR_ = _STAR_depth_STAR_18887;
 
-om.next._STAR_reconciler_STAR_ = _STAR_reconciler_STAR_20037;
-}});})(x20036_20044))
+om.next._STAR_reconciler_STAR_ = _STAR_reconciler_STAR_18886;
+}});})(x18885_18893))
 ;
 
 
@@ -131,10 +131,10 @@ om_tutorial.core.HelloWorld.prototype.constructor = om_tutorial.core.HelloWorld;
 
 om_tutorial.core.HelloWorld.prototype.om$isComponent = true;
 
-var x20042_20045 = om_tutorial.core.HelloWorld;
+var x18891_18894 = om_tutorial.core.HelloWorld;
 
 
-var x20043_20046 = om_tutorial.core.HelloWorld.prototype;
+var x18892_18895 = om_tutorial.core.HelloWorld.prototype;
 
 
 om_tutorial.core.HelloWorld.cljs$lang$type = true;
@@ -146,6 +146,6 @@ return cljs.core._write.call(null,writer__18859__auto__,"om-tutorial.core/HelloW
 });
 om_tutorial.core.hello = om.next.factory.call(null,om_tutorial.core.HelloWorld);
 cljs.core.enable_console_print_BANG_.call(null);
-ReactDOM.render(om_tutorial.core.hello.call(null),goog.dom.getElement("app"));
+ReactDOM.render(om_tutorial.core.hello.call(null,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"title","title",636505583),"Bye cruel world!"], null)),goog.dom.getElement("app"));
 
 //# sourceMappingURL=core.js.map

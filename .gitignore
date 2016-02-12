@@ -1,2 +1,2 @@
 *.log
-resources/public/*
+resources/public/js/**/*.js
